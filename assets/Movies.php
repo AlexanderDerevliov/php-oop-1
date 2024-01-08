@@ -6,14 +6,14 @@ class Movie {
    public $releaseDate;
    public $genre;
 
-    public function __construct($title, $actors, $releaseDate, $genre)
+    public function __construct($title, $actors, $releaseDate, array $genre)
     {
         $this->title = $title;
         $this->actors = $actors;
         $this->releaseDate = $releaseDate;
         $this->genre = $genre;
     }
-
+    
   }
    
 ?>
